@@ -8,8 +8,8 @@ from utils.file_utils import read_from_file, get_row_val, read_headers_from_file
 parser = argparse.ArgumentParser(
     prog="bearingstogps",
     description=(
-        "Given a starting GPS coordinate (longitude and lattitude), convert a series of bearings and distances into a "
-        "line or shape"
+        "Given a starting GPS coordinate (longitude and lattitude), convert a series of bearings and distances into "
+        "GPS coordinates."
     ),
     formatter_class=argparse.RawTextHelpFormatter,
 )
